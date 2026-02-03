@@ -53,7 +53,18 @@
     margin-left:6px;
 }
 
+@media (max-width: 580px) {
+    .middle-section div {
+        font-size:20px;
+    }
+}
 
+
+@media (min-width: 581px) and (max-width: 830px) {
+    .middle-section div {
+        font-size:20px;
+    }
+}
 
 
 
