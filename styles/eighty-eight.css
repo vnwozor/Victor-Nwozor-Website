@@ -45,6 +45,11 @@ main {
 @media (max-width: 580px) {
     .products-grid {
         grid-template-columns:repeat(1, 1fr);
+        margin-left:0px;
+    }
+
+    .eighty-eight-writing-container {
+        display:none;
     }
 }
 
@@ -229,3 +234,5 @@ main {
     background-color:rgb(128, 0, 0);
     color:white;
 }
+
+ 
