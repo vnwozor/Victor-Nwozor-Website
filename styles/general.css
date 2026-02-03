@@ -4,6 +4,12 @@ main {
     margin-top:90px;
 }
 
+/* html */
+
+html {
+    padding:0px;
+    margin:0px;
+}
 
 /*body*/
 
@@ -31,4 +37,5 @@ select {
 /*button*/
 button {
     font-family:Gajraj One;
+
 }
