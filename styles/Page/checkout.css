@@ -116,7 +116,31 @@ section {
     margin-left:120px;
 }
 
+@media (max-width: 580px) {
+    .product-grid {
+        width:60%;
+        margin-left:10px;
+    }
+}
 
+
+@media (min-width: 581px) and (max-width: 830px) {
+    .product-grid {
+        margin-left:20px;
+    }
+}
+
+@media (min-width: 831px) and (max-width: 1072px) {
+    .product-grid {
+        margin-left:0px;
+    }
+}
+
+@media (min-width: 1073px) and (max-width: 1315px) {
+    .product-grid {
+        margin-left:0px;
+    }
+}
 
 
 
@@ -130,7 +154,30 @@ section {
     box-shadow:0px 0px 10px 0px rgba(0,0,0,0.35);
     margin-bottom:35px;
 }
+@media (max-width: 580px) {
 
+    .product-container {
+        flex-direction:column;
+        width:300px;
+        margin-bottom:180px;
+    }
+}
+
+
+@media (min-width: 581px) and (max-width: 830px) {
+
+    /* .product-container {
+        flex-direction:column;
+        width:300px;
+        margin-bottom:180px;
+    } */
+}
+
+@media (min-width: 831px) and (max-width: 1072px) {
+}
+
+@media (min-width: 1073px) and (max-width: 1315px) {
+}
 
 /*Product Order Image Container*/
 
@@ -256,6 +303,87 @@ section {
     width:480px;
     margin-bottom:35px;
 }
+
+
+@media (max-width: 580px) {
+    .order-summary-container {
+        right:-10px;
+        position:relative;
+        z-index:-100;
+        margin-bottom:40px;
+    }
+    .order-summary {
+        width:110%;
+    }
+
+    section {
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
+}
+
+
+@media (min-width: 581px) and (max-width: 830px) {
+    
+    .order-summary-container {
+        right:-10px;
+        position:relative;
+        z-index:-100;
+        margin-bottom:40px;
+    }
+    .order-summary {
+        width:130%;
+    }
+
+    section {
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
+}
+
+@media (min-width: 831px) and (max-width: 1072px) {
+    .order-summary-container {
+        right:-10px;
+        position:relative;
+        z-index:-100;
+        margin-bottom:40px;
+    }
+    .order-summary {
+        width:130%;
+    }
+
+    section {
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
+}
+
+@media (min-width: 1073px) and (max-width: 1315px) {
+    .order-summary-container {
+        right:-10px;
+        position:relative;
+        z-index:-100;
+        margin-bottom:40px;
+    }
+    .order-summary {
+        width:130%;
+    }
+
+    section {
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
+}
+
+
 
 
 .summary-writing {
