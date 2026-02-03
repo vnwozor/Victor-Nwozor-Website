@@ -130,7 +130,7 @@ section {
 @media (max-width: 580px) {
     .product-grid {
         width:60%;
-        margin-left:10px;
+        margin-left:0px;
     }
 }
 
@@ -324,7 +324,7 @@ section {
         margin-bottom:40px;
     }
     .order-summary {
-        width:99%;
+        width:120%;
     }
 
     section {
