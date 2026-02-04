@@ -374,7 +374,7 @@ h1 {
 
 @media (min-width:300px) and (max-width:674px )  {
     .info-heading {
-        font-size:36px;
+        font-size:30px;
         width:190px;
     }
 
@@ -451,10 +451,11 @@ h1 {
 
 @media (min-width:1151px ) {
     .base-bar {
+        position:fixed;
         left:0;
         bottom:0;
         right:0;
-        width:85%;
+        z-index:1000;
     }
 }
 
