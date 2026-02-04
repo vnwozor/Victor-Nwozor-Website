@@ -431,20 +431,21 @@ h1 {
 
 @media (max-width: 768px) {
     .base-bar {
+        position:fixed;
         left:0;
         bottom:0;
         right:0;
         z-index:1000;
-        width:87%;
     }
 }
 
 @media (min-width:769px ) and (max-width: 1150px) {
     .base-bar {
+        position:fixed;
         left:0;
         bottom:0;
         right:0;
-        width:85%;
+        z-index:1000;
     }
 }
 
