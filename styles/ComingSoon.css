@@ -60,6 +60,11 @@ main {
     color:white;
 }
 
+@media (min-width:300px) and (max-width:674px )  {
+    .coming{
+        font-size:40px;
+    }
+}
 .info {
     font-family:Bitcount;
     font-size:32px;
