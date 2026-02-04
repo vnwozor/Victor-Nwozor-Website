@@ -15,7 +15,7 @@ body {
     z-index:-1;
 }
 
-@media (max-width: 674px) {
+@media (min-width:300px) and (max-width:674px ) {
     .background-image {
         top:0;
         left:0;
