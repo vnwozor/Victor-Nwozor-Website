@@ -374,7 +374,7 @@ h1 {
 
 @media (min-width:300px) and (max-width:674px )  {
     .info-heading {
-        font-size:40px;
+        font-size:36px;
         width:190px;
     }
 
@@ -627,7 +627,7 @@ h1 {
 
 @media (min-width:300px) and (max-width:674px ) {
     .ming {
-        font-size:50px;
+        font-size:40px;
     }
 
 }
@@ -956,6 +956,9 @@ h1 {
     justify-content:space-around;
 }
 
+.the {
+    margin-right:10px;
+}
 
 
 .contact-grid {
