@@ -2,237 +2,439 @@
 <html>
     <head>
         <title>
-            ELDOV.CO Profolio
+            OnCode Profolio
         </title>
 
-        <link  rel="icon" href="Images & Icons/channel-2.jpeg">
-        <link rel="stylesheet" href="general.css">
-        <link rel="stylesheet" href="sidebar.css">
-        <link rel="stylesheet" href="main.css">
+        <link rel="icon" href="Images & Icons/oncode.png">
+
+        <!--Styles-->
+        <link rel="stylesheet" href="styles/sidebar.css">
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/profolio.css">
 
 
-        <link rel="stylesheet" href="YouTube/Youtube.html">
 
 
-
-        <!--fonts-Bitcount-->
+        <!--Roboto-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Bitcount:wght@100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-        <!--fonts-Bungee-->
+        <!--Bungee-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
 
-
-        <!--fonts-Roboto-->
+        <!--Bitcount-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bitcount:wght@100..900&family=Bungee&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
     </head>
 
     <body>
+        
 
-        <nav class="side-bar">
+        <div class="header js-header">
+
+            <img class="profile-pic" src="Images & Icons/channels4_profile.jpg" alt="">
+
+            <button class="hamburger-container js-open">
+                <img class="hamburger" src="Images & Icons/hamburger-menu.svg" alt="">
+            </button>
+
+        </div>
+
+        
+        <div class="sidebar js-sidebar">
+
+            <button class="close-btn js-close">
+                <img src="Images & Icons/Exit.svg" >
+            </button>
+
+
             <div class="profile-container">
-                <img class="profile-pic" src="Images & Icons/channels4_profile.jpg">
+                <div class="contain">
+                    <img class="profile-side" src="Images & Icons/channels4_profile.jpg" alt="">
+                    <div class="company-logo">
+                        <img src="Images & Icons/oncode-icon.svg" alt="">
+                    </div>
+                </div>
+                
 
-                <p class="company-name">
-                    ELDOV.CO
-                </p>
+                <div>
+                    <p class="company-name">ONCODE.CEO</p>
 
-                <p class="partner-name">
-                    Professional Partner
-                </p>
+                    <p class="partner-name">PROFESSIONAL PARTNER</p>
+                </div>
             </div>
 
 
-            <div class="home-container">
-                <img class="home-icon" src="Images & Icons/home-icon.png">
-                <p class="home-text">
-                    Home
-                </p>
-            </div>
-
-            <div class="home-container">
-                <img class="home-icon" src="Images & Icons/project-icon.png">
-                <p class="home-text">
-                    Projects
-                </p>
-            </div>
-
-            <div class="home-container">
-                <img class="home-icon" src="Images & Icons/video-icon.png">
-                <p class="home-text">
-                    Videos
-                </p>
-            </div>
-
-
-
-            <div class="home-container">
-                <img class="home-icon" src="Images & Icons/about-icon.png">
-                <p class="home-text">
-                    About
-                </p>
-            </div>
-
-
-
-
-            <div class="home-container">
-                <img class="home-icon" src="Images & Icons/contact-icon.png">
-                <p class="home-text">
-                    Contact
-                </p>
-            </div>
-        </nav>
-
-
-
-        <main>
-            <section class="section">
-                <img class="background-image" src="Images & Icons/Rectangle 2 (1).png">
-
-                <div class="main-section">
-
-                    <div class="head">
-                        <h1 >
-                            Fullstack Web Developer Subscription Services
-                        </h1>
-                        
-                        <a class="subscribe" href="https://vnwozor.github.io/Victor-Nwozor-Account-No/kuda.html">
-                            Subscribe Now >
+            <nav class="nav-bar">
+                <div class="nav-container js-nav" data-target="home">
+                    <img src="Images & Icons/Home.svg" class="nav-images">
+                    <div class="nav ">
+                        <a class="nav-name ">
+                            Home
                         </a>
-                        
+                        <div class="nav-line active js-line"></div>
+                    </div>
+                </div>
+
+                <div class="nav-container js-nav" data-target="projects">
+                    <img src="Images & Icons/Project.svg" class="nav-images">
+                    <div class="nav">
+                        <a class="nav-name" >
+                            Projects
+                        </a>
+                        <div class="nav-line js-line"></div>
+                    </div>
+                </div>
+
+                <div class="nav-container js-nav" data-target="videos">
+                    <img src="Images & Icons/Video.svg" class="nav-images">
+                    <div class="nav">
+                        <a class="nav-name">
+                            Videos
+                        </a>
+                        <div class="nav-line js-line"></div>
+                    </div>
+                </div>
+
+                <div class="nav-container js-nav" data-target="about">
+                    <img src="Images & Icons/About.svg" class="nav-images">
+                    <div class="nav">
+                        <a class="nav-name">
+                            About
+                        </a>
+                        <div class="nav-line js-line"></div>
+                    </div>
+                </div>
+
+                <div class="nav-container js-nav" data-target="contact">
+                    <img src="Images & Icons/Contact.svg" class="nav-images">
+                    <div class="nav">
+                        <a class="nav-name">
+                            Contact
+                        </a>
+                        <div class="nav-line js-line"></div>
+                    </div>
+                </div>
+
+                
+            </nav>
+            
+            
+        </div>
+
+
+        <main class="js-main">
+
+            <div class="head-section">
+
+                <div class="head-title">
+                    FullStack Web Developer Subscription Service
+                </div>
+
+                <a class="subscribe" href="ComingSoon.html">
+                    Subscribe Now
+                </a>
+
+            </div>
+
+
+            <div>
+                <img class="background-image" src="Images & Icons/Rectangle 2 (1).png" alt="">
+            </div>
+
+            <section id="home" class="page active section">
+
+            
+                <div class="stats">
+            
+
+                    <div class="info">
+                        <div class="info-number">3+</div>
+                        <div class="info-des">Completed Projects</div>
                     </div>
 
-                    <div class="whole">
-                        <div class="stats">
-                            <div class="info">
-                                <h1 class="number">
-                                    3+
-                                </h1>
-                                <p>
-                                    Completed Projects
-                                </p>
-                            </div>
+                    <div class="info">
+                        <p class="info-heading">
+                            Full Stack Expert
+                        </p>
+                    </div>
+
+                
+
+                
+
+                    <div class="info">
+                        <div class="info-number">0</div>
+                        <div class="info-des">Satisfied Client</div>
+                    </div>
+
+                    <div class="info">
+                        <div class="info-number">
+                            2
+                            <div class="info-des">Years</div>
+                        </div>
+                        <div class="info-des">Web Experience</div>
+                    </div>
+
+                    
+                    
+
+                    
+                </div>
 
 
-                            <div class="info">
-                                <h1 class="text">
-                                    Fullstack Expert
-                                </h1>
-                            </div>
+                <div class="grid">
+                    <h1>
+                        Your Ultimate FullStack Developer
+                    </h1>
 
+                    <div class="description">
+                        My name is Nwozor Victor I'm a web designer and a full-stack 
+                        web developer based in NIGERIA, who specializes in building dynamic, 
+                        user-friendly, and performance-driven websites and web applications. 
+                        From the front-end (what users see) to the back-end (what powers the system), 
+                        I design, develop, and maintain complete solutions that are fast, secure, and scalable.
+                    </div>
 
-                            <div class="info">
-                                <h1 class="number">
-                                    0
-                                </h1>
-                                <p>
-                                    Satisfied Clients
-                                </p>
-                            </div>
+                    <div>
+                        <a href="ComingSoon.html">
+                            Get In Touch
+                        </a>
+                    </div>
+                </div>
+        
+                
 
-
-                            <div class="info">
-                                <h1 class="number">
-                                    1 <p>Year</p>
-                                </h1>
-                                <p>
-                                   Web Experience
-                                </p>
-                            </div>
+                <a href="ComingSoon.html">
+                    <div class="project-grid">
+                    
+                        <div class="featured">
+                            Featured Projects
                         </div>
 
-
-
-                        <div class="description">
-                            <h1 class="header">
-                                Your Ultimate Fullstack partner
-                            </h1>
-
-                            <p>
-                                My name is Nwozor Victor I’m a full-stack web developer who specializes in building dynamic, user-friendly, and performance-driven websites and web applications.
-                                From the front-end (what users see) to the back-end (what powers the system), I design, develop, and maintain complete solutions that are fast, secure, and scalable.
-                            </p>
-
-                            <a href="">
-                                Get in touch
-                            </a>
-
-                        </div>
-
-
-
-
-
-                        <div class="featured-projects">
-                            <h1 class="project-head">
-                                Featured Projects
-                            </h1>
-
-                            <div class="a">
-                                <a href="">
-                                    View all>
-                                </a>
-                            </div>
-
-
-                            <img class="computer" src="Images & Icons/computer.png">
-
-                        </div>
-
-
-
-
-
-
+                        <div class="view">
                         
-                        <div class="mentor">
-                            <h1 class="mentor-head">
-                                Mentor
-                            </h1>
-
-                            <p>
-                                Emmanuel Obogo
-                            </p>
-
+                            View All
+                        
                         </div>
+
+                    
+                        <img class="site" src="Images & Icons/computer.png" alt="">
+                    </div>
+                </a>
+                
+
+
+                <div class="grid what">
+                    <div class="me-heading">
+                        What I Offer
                     </div>
 
+                    <div>
+                        <div class="texted">
+                            Web Design (UI / UX)
+                        </div>
 
-                    <div class="basebar">
-                        <a class="link"  href="https://www.linkedin.com/in/victor-nwozor-174164379?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
-                            Linkedin
-                        </a>
+                        <div class="texted">
+                            FullStack Development
+                        </div>
 
-                        <a class="link"  href="https://www.youtube.com/@vic.to5r">
-                            Youtube
-                        </a>
+                        <div class="texted">
+                            FrontEnd Development
+                        </div>
 
-                        <a class="link"  href="https://x.com/Vic_to5r?t=JT66jh1TvCpJp9UhKjSJLw&s=08">
-                            Twitter X
-                        </a>
+                        <div class="texted">
+                            E-commerce Website
+                        </div>
 
-                        <a class="link"  href="https://www.instagram.com/vic.to5r?igsh=MTA5YmRzZHNrNXcyeQ==">
-                            Instagram
-                        </a>
+                        <div class="texted">
+                            Web Redesign and Fix
+                        </div>
 
-                        <a class="link"  href="http://tiktok.com/@vic.to5r">
-                            Tiktok
-                        </a>
+
+                        <div class="texted">
+                            Maintenance and Support
+                        </div>
+
                     </div>
 
+                
+                    <button class="contact-btn js-contact-btn">
+                        Contact Us
+                    </button>
+                
+                    
+                </div>
+
+            </section>
+
+            <section id="projects" class="page">
+                <div class="page-div">
+
+                    <div class="ming">
+                        Coming Soon!
+                    </div>
+
+                    <div class="fon">
+                        April 2026
+                    </div>
 
                 </div>
+                
             </section>
+
+            <section id="videos" class="page">
+                <div class="page-div">
+
+                    <div class="ming">
+                        Coming Soon!
+                    </div>
+
+                    <div class="fon">
+                        April 2026
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section id="about" class="page">
+                
+                <div class="about-div">
+
+                    <div class="about-head">
+                        About Me
+                    </div>
+
+                    <div class="fond">
+                        Nwozor Victor is a full-stack web developer and 
+                        the Founder of ONCODE, a technology company based 
+                        in Nigeria focused on building web applications, 
+                        websites, and AI solutions at affordable prices. 
+                        Based in Abuja and a student of Veritas University, 
+                        he specializes in creating scalable, high-performance 
+                        digital products designed to solve real problems and 
+                        deliver value for individuals, startups, and businesses 
+                        across Nigeria.
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section id="contact" class="page">
+                <div class="contact-div">
+
+                    <div class="cont">
+                        <div class="contact-grid">
+                            <div class="contact-head">
+                                WhatsApp
+                            </div>
+
+                            <a class="a" href="https://wa.me/message/X6APFSKWWOWTK1">
+                                <button class="contact-ton">
+        
+                                    Click Me
+                    
+                                </button>
+                            </a>
+                            
+                        </div>
+
+
+                        <div class="contact-grid">
+                            <div class="contact-head">
+                        
+                                LinkedIn
+        
+                            </div>
+
+                            
+                            <a href="https://www.linkedin.com/in/victor-nwozor-174164379?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                                <button class="contact-ton">
+                                    Click Me
+                                </button>
+                            </a>
+                
+                        </div>
+                    </div>
+
+
+
+                    
+
+
+
+                    <div class="cont">
+                        <div class="contact-grid">
+                            <div class="contact-head">
+                                
+                                Mail
+                                
+                            </div>
+
+                        
+                            <a href="mailto:vnwozor@gmail.com?subject=Hello">
+                                <button class="contact-ton">
+                                    Click Me
+                                </button>
+                            </a>
+                        
+                        </div>
+
+
+                        <div class="contact-grid">
+                            <div class="contact-head">
+                    
+                                Instagram
+                            
+                            </div>
+
+        
+                            <a href="https://www.instagram.com/oncode.co?igsh=cHMyb2V3ZXdjbncw">
+                                <button class="contact-ton">
+                                    Click Me
+                                </button>
+                            </a>
+                    
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+
+
+            <div class="base-bar">
+                
+                <a href="https://www.linkedin.com/in/victor-nwozor-174164379?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                    LinkedIn
+                </a>
+
+                <a href="https://wa.me/message/X6APFSKWWOWTK1">
+                    WhatsApp
+                </a>
+
+                <a href="mailto:vnwozor@gmail.com?subject=Hello">
+                    Mail
+                </a>
+
+                <a href="https://www.instagram.com/oncode.co?igsh=cHMyb2V3ZXdjbncw">
+                    Instagram
+                </a>
+
+                <a href="https://x.com/Vic_to5r">
+                    Twitter X
+                </a>
+            </div>
         </main>
+        
 
+
+        <script src="Script/profolio.js"></script>
     </body>
-
 </html>
-
-
