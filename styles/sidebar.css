@@ -34,7 +34,7 @@
     display:none;
 }
 
-@media (max-width:674px ) {
+@media (min-width:300px) and (max-width:674px ) {
     .header {
         display:flex;
         justify-content:space-between;
