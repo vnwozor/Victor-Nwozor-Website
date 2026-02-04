@@ -29,7 +29,7 @@ main {
 }
 
 
-@media (max-width:674px) {
+@media (min-width:300px) and (max-width:674px )  {
     main {
         margin-left:210px;
         width:116%;
