@@ -375,7 +375,7 @@ h1 {
 @media (min-width:300px) and (max-width:674px )  {
     .info-heading {
         font-size:30px;
-        width:190px;
+        width:130px;
     }
 
     .info-number {
@@ -1008,3 +1008,4 @@ h1 {
     background-color:white;
     border:none;
 }
+
